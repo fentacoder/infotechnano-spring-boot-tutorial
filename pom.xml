@@ -8,10 +8,10 @@
 		<version>2.3.1.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.infotechnano.vidtogo</groupId>
-	<artifactId>vidtogo</artifactId>
+	<groupId>com.infotechnano.infotechnano-spring-boot-tutorial</groupId>
+	<artifactId>infotechnano-spring-boot-tutorial</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>vidtogo</name>
+	<name>infotechnano-spring-boot-tutorial</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -22,32 +22,6 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-security</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>org.springframework.security</groupId>
-			<artifactId>spring-security-config</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-jdbc</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>org.postgresql</groupId>
-			<artifactId>postgresql</artifactId>
-			<scope>runtime</scope>
-		</dependency>
-
-		<dependency>
-			<groupId>org.flywaydb</groupId>
-			<artifactId>flyway-core</artifactId>
 		</dependency>
 
 		<dependency>
